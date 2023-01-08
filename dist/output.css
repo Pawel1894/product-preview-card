@@ -519,6 +519,10 @@ video {
   position: relative;
 }
 
+.m-3{
+  margin: 0.75rem;
+}
+
 .mx-3{
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -529,8 +533,8 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mt-6{
-  margin-top: 1.5rem;
+.mt-8{
+  margin-top: 2rem;
 }
 
 .mt-5{
@@ -541,28 +545,12 @@ video {
   margin-left: 0.75rem;
 }
 
-.mt-8{
-  margin-top: 2rem;
-}
-
 .flex{
   display: flex;
 }
 
-.h-\[17rem\]{
-  height: 17rem;
-}
-
-.h-\[18rem\]{
-  height: 18rem;
-}
-
 .h-\[20rem\]{
   height: 20rem;
-}
-
-.max-h-\[30rem\]{
-  max-height: 30rem;
 }
 
 .min-h-screen{
@@ -573,20 +561,8 @@ video {
   width: 100%;
 }
 
-.max-w-\[30rem\]{
-  max-width: 30rem;
-}
-
-.max-w-\[40rem\]{
-  max-width: 40rem;
-}
-
 .max-w-\[43rem\]{
   max-width: 43rem;
-}
-
-.flex-col{
-  flex-direction: column;
 }
 
 .items-center{
@@ -774,18 +750,6 @@ video {
     margin-bottom: 1.5rem;
   }
 
-  .sm\:mt-7{
-    margin-top: 1.75rem;
-  }
-
-  .sm\:mt-10{
-    margin-top: 2.5rem;
-  }
-
-  .sm\:mt-8{
-    margin-top: 2rem;
-  }
-
   .sm\:mt-9{
     margin-top: 2.25rem;
   }
@@ -802,22 +766,8 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .sm\:flex-row{
-    flex-direction: row;
-  }
-
   .sm\:bg-desktop{
     background-image: url('./images/image-product-desktop.jpg');
-  }
-
-  .sm\:px-8{
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .sm\:px-10{
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 
   .sm\:py-8{
@@ -825,12 +775,9 @@ video {
     padding-bottom: 2rem;
   }
 
-  .sm\:leading-3{
-    line-height: .75rem;
-  }
-
-  .sm\:leading-8{
-    line-height: 2rem;
+  .sm\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .sm\:leading-9{
