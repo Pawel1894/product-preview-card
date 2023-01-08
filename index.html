@@ -11,25 +11,27 @@
     <link href="./dist/output.css" rel="stylesheet" />
   </head>
   <body class="bg-cream min-h-screen flex justify-center items-center">
-    <main class="bg-white flex flex-col mx-3 rounded-lg">
-      <div class="bg-mobile w-full h-[17rem] bg-cover bg-center bg-no-repeat rounded-t-md"></div>
-      <div class="rounded-b-md py-6 px-4">
+    <main class="max-w-[43rem] bg-white mx-3 rounded-lg sm:grid sm:grid-cols-2">
+      <div
+        class="bg-mobile w-full h-[20rem] bg-cover bg-center bg-no-repeat rounded-t-md sm:h-full sm:bg-desktop"
+      ></div>
+      <div class="rounded-b-md py-6 px-4 sm:py-8 sm:px-10">
         <span class="uppercase text-dark-grayish-blue tracking-[0.25em]">perfume</span>
-        <h1 class="text-very-dark-blue my-5 font-bold font-serif text-4xl capitalize">
+        <h1 class="text-very-dark-blue my-5 font-bold font-serif text-4xl capitalize sm:my-6 sm:leading-9">
           gabrielle essence eau de parfum
         </h1>
         <p class="text-dark-grayish-blue">
           A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the
           House of CHANEL.
         </p>
-        <div class="mt-6">
+        <div class="mt-8">
           <span
             class="text-4xl font-serif text-dark-cyan-100 relative after:content-['$169.99'] after:absolute after:font-sans after:ml-4 after:top-2 after:text-lg after:line-through after:text-dark-grayish-blue"
             >$149.99</span
           >
         </div>
         <button
-          class="flex justify-center items-center mt-5 py-4 w-full bg-dark-cyan-100 rounded-md hover:bg-dark-cyan-200 active:bg-dark-cyan-200 focus:bg-dark-cyan-200"
+          class="flex justify-center items-center mt-5 py-4 w-full bg-dark-cyan-100 rounded-md hover:bg-dark-cyan-200 active:bg-dark-cyan-200 focus:bg-dark-cyan-200 sm:mt-9"
         >
           <img width="20" src="./dist/images/icon-cart.svg" />
           <span class="text-lg ml-3 text-white font-bold">Add to Cart</span>
